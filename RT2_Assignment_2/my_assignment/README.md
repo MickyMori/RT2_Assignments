@@ -1,10 +1,10 @@
-Research Track I Second Assignment
+Research Track II Second Assignment
 =================================
 
 Student: [Michele Moriconi](https://github.com/MickyMori) (S4861803), Professor: [Carmine Tommaso Recchiuto](https://github.com/CarmineD8)
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-This is the second assignment for the course Research Track 1 held at Genoa's University. The assignment required to create three nodes to make a robot move in the environment and to retrieve some data.
+This is the second assignment for the course Research Track 2 held at Genoa's University. The assignment required to create three nodes to make a robot move in the environment and to retrieve some data.
 
 Installing and running
 ----------------------
@@ -61,19 +61,6 @@ To visualize the data use the command:
 ```bash
 $ rostopic echo /robotDistVel
 ```
-
-Flowchart
----------
-
-The rectangular blocks rappresent the actions while the rhombuses rappresent the decisions. 
-
-The following flowchart summarizes the key points of the nodeAclient.
-
-![Flowchart Node A Client](/my_assignment/Images/flowchart.png "Flowchart Node A Client")
-
-The following flowchart summarizes the key points of the nodeApublisher.
-
-![Flowchart Node A Publisher](/my_assignment/Images/flowchartPub.png "Flowchart Node A Publisher")
 
 Possible improvements
 ---------------------
