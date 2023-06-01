@@ -50,19 +50,9 @@ $ roslaunch my_assignment my_assignment.launch
 Nodes
 ---------
 
-### nodeAclient.py ###
+### nodeA ###
 
-I divided the first node in two parts. The nodeAclient allows the user to insert the goal position, to cancel the current goal and to set a new goal if the previous one has already been reached. I decided to open this node on a new terminal using Konsole to make it more user friendly.
-
-### nodeApublisher.py ###
-
-The nodeApublisher subscribes to the topic "/odom" to retrieve the robot's position and velocity in cartesian components. The node than uses the custom message PosVelData, that can be found in the msg folder, to publish the data on the topic "/posVelData".
-
-To visualize what the node is publishing use the command:
-
-```bash
-$ rostopic echo /posVelData
-```
+The node A has the same functionalities it had in the orginal version but was made with Jupyter. It alse features some new functionalities as it displays the distance from the closest obstacle, it draws the trajectory of the robot and it shows in a graph the nuber of goals reached and cancelled.
 
 ### nodeB.py ###
 
