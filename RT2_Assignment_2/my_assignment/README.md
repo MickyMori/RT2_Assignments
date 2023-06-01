@@ -9,7 +9,7 @@ This is the second assignment for the course Research Track 1 held at Genoa's Un
 Installing and running
 ----------------------
 
-The simulator requires a ROS installation, the ROS package [assignment_2_2022](https://github.com/CarmineD8/assignment_2_2022) and the konsole installation.
+The simulator requires a ROS installation, the ROS package [assignment_2_2022](https://github.com/CarmineD8/assignment_2_2022) and Jupyter Notebook.
 
 To get the assignment_2_2022 package click on the link above or use the following command
 
@@ -17,21 +17,7 @@ To get the assignment_2_2022 package click on the link above or use the followin
 $ git clone https://github.com/CarmineD8/assignment_2_2022
 ```
 
-To install konsole use the command:
-
-```bash
-$ sudo apt-get install konsole
-```
-
 Before running the program make sure that the python files have the permission to be executed. To do so use the following commands inside the scrips folder:
-
-```bash
-$ chmod +x nodeAclient.py
-```
-
-```bash
-$ chmod +x nodeApublisher.py
-```
 
 ```bash
 $ chmod +x nodeB.py
